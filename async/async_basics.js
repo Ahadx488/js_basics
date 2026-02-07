@@ -87,3 +87,12 @@ Then → Execute Task Queue
 
 // The callback of the async operation will be added to the call stack
 // only when the call stack becomes empty and the event loop allows it
+
+/* What fetch does
+
+-> Sends a network request (API call)
+
+-> This is a slow operation
+
+-> So JS does NOT wait for it */  // it means it is a async oprn
+
